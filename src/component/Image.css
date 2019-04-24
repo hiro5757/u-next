@@ -1,0 +1,27 @@
+
+.ImageSlider {
+	margin: 0 auto
+}
+
+.ImageSlider ul {
+	height: 350px;
+	padding: 0;
+	margin: 0;
+	background-color: #000000;
+	overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.ImageSlider li {
+	width: 50%;
+	height: 300px;
+	margin: 25px 8px;
+	display: inline-block;
+
+}
+
+.ImageSlider img {
+	width: 100%;
+	height: 300px;
+}
